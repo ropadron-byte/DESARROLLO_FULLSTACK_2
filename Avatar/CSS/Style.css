@@ -1,0 +1,19 @@
+
+
+
+p{
+            color: navy;
+
+}
+body{
+            
+    background-image: url("../imagenes/green_cat.jpg");
+    background-position: center;
+    background-size: 70%;
+}
+
+h1{
+
+    border-top: 40px solid navy;
+    padding: 10px;
+}
