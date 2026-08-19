@@ -197,7 +197,7 @@
       </div>
       <div class="col-md-6">
         <label for="inputCity" class="form-label">Resultado</label>
-        <input type="text" class="form-control" id="resultado">
+        <input type="text" class="form-control" id="resultado" disabled>
       </div>
       <div class="col-md-4">
         <label for="inputState" class="form-label">Accion</label>
@@ -208,10 +208,11 @@
           <option selected>Dividir</option>
         </select>
       </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Calcular</button>
-      </div>
     </form>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary" onclick=calcular()>Calcular</button>
+      </div>
+ 
 
     <div><h1>----------------------------------</h1></div>
 
@@ -239,10 +240,11 @@
     </script>
 
     <script>
-      addEventListener("submit", function(even){
-        even.preventDefault();
-        calcular();
-      });
+      
+//      addEventListener("submit", function(even){
+//        even.preventDefault();
+//        calcular();
+//      });
 
     function calcular() {
       
